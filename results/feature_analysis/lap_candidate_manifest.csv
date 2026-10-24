@@ -1,0 +1,48 @@
+feature,decision,reason
+gap_to_best_pre_race_pct,candidate,Leakage-safe and retained for feature selection.
+best_pre_race_rank,candidate,Leakage-safe and retained for feature selection.
+gap_to_best_practice_pct,candidate,Leakage-safe and retained for feature selection.
+gap_to_best_quali_pct,candidate,Leakage-safe and retained for feature selection.
+best_quali_rank,candidate,Leakage-safe and retained for feature selection.
+reached_q2,candidate,Leakage-safe and retained for feature selection.
+t1_rank,candidate,Leakage-safe and retained for feature selection.
+t2_rank,candidate,Leakage-safe and retained for feature selection.
+t3_rank,candidate,Leakage-safe and retained for feature selection.
+t4_rank,candidate,Leakage-safe and retained for feature selection.
+pre_race_top_speed_rank,candidate,Leakage-safe and retained for feature selection.
+longrun_laps,candidate,Leakage-safe and retained for feature selection.
+longrun_rank,candidate,Leakage-safe and retained for feature selection.
+longrun_cv_pct,candidate,Leakage-safe and retained for feature selection.
+longrun_deg_pct_per_lap,candidate,Leakage-safe and retained for feature selection.
+longrun_gap_to_teammate_pct,candidate,Leakage-safe and retained for feature selection.
+longrun_front_tyre,candidate,Leakage-safe and retained for feature selection.
+longrun_rear_tyre,candidate,Leakage-safe and retained for feature selection.
+previous_race_lap_gap_pct,candidate,Leakage-safe and retained for feature selection.
+previous_race_pace_gap_pct,candidate,Leakage-safe and retained for feature selection.
+previous_race_pace_rank,candidate,Leakage-safe and retained for feature selection.
+previous_race_top_speed_rank,candidate,Leakage-safe and retained for feature selection.
+previous_race_lap_cv_pct,candidate,Leakage-safe and retained for feature selection.
+last3_race_lap_gap_pct_mean,candidate,Leakage-safe and retained for feature selection.
+last3_race_pace_gap_pct_mean,candidate,Leakage-safe and retained for feature selection.
+last3_race_pace_rank_mean,candidate,Leakage-safe and retained for feature selection.
+last3_race_top_speed_rank_mean,candidate,Leakage-safe and retained for feature selection.
+last3_race_lap_cv_pct_mean,candidate,Leakage-safe and retained for feature selection.
+best_pre_race_lap_s,excluded_representation,Raw lap time is circuit-dependent.
+best_practice_lap_s,excluded_representation,Raw lap time is circuit-dependent.
+best_quali_lap_s,excluded_representation,Raw lap time is circuit-dependent.
+longrun_median_s,excluded_representation,Raw long-run time is circuit-dependent.
+longrun_std_s,excluded_representation,Absolute variation depends partly on lap duration.
+gap_to_best_pre_race_s,excluded_representation,Percentage gap retained instead.
+gap_to_best_practice_s,excluded_representation,Percentage gap retained instead.
+gap_to_best_quali_s,excluded_representation,Percentage gap retained instead.
+t1_gap_s,excluded_representation,Replaced by t1_rank.
+t2_gap_s,excluded_representation,Replaced by t2_rank.
+t3_gap_s,excluded_representation,Replaced by t3_rank.
+t4_gap_s,excluded_representation,Replaced by t4_rank.
+pre_race_top_speed_max,excluded_representation,Within-event top-speed rank retained instead.
+longrun_deg_s_per_lap,excluded_representation,Replaced by longrun_deg_pct_per_lap.
+longrun_gap_to_teammate_s,excluded_representation,Replaced by longrun_gap_to_teammate_pct.
+pre_race_laps,excluded_representation,Sensitive to weekend session structure.
+pre_race_sessions_run,excluded_representation,Sensitive to weekend session structure.
+previous_race_laps_completed,excluded_representation,Race distance differs between circuits.
+last3_race_laps_completed_mean,excluded_representation,Race distance differs between circuits.

@@ -1,0 +1,7 @@
+feature,group
+previous_race_pace_rank,historical_lagged
+last3_race_pace_rank_mean,historical_lagged
+previous_race_top_speed_rank,historical_lagged
+last3_race_top_speed_rank_mean,historical_lagged
+previous_race_laps_completed,historical_lagged
+last3_race_laps_completed_mean,historical_lagged
